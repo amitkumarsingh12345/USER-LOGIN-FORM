@@ -1,0 +1,76 @@
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.formdata {
+    font-family: sans-serif;
+    display: inline-block;
+    font-size: large;
+    line-height: 35px;
+    padding: 50px 40px;
+    border: 2px solid tomato;
+}
+.formdata input{
+    width: 400px;
+    height: 30px;
+    border-color: tomato;
+    text-indent: 20px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.formdata button{
+    border-color: tomato;
+    font-size: 20px;
+    width: 400px;
+    height: 30px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.formdata button:hover{
+    background-color: transparent;
+    border: 2px solid tomato;
+    color: black;
+}
+.addproduct {
+    width: 450px;
+    padding: 60px;
+    border: none;
+}
+.addproduct input{
+    border: none;
+    text-indent: 40px;
+    border-bottom: 2px solid tomato;
+    outline: none;
+    margin-bottom: 40px;
+}
+.invalidmassage {
+    color: red;
+    margin: -50px 0px 0px 40px;
+    font-size: 15px;
+    position: relative;
+}
+.procuctlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.procuctlist table{
+    margin-top: 40px;
+    text-align: center;
+    border: 2px solid tomato;
+    padding: 0px;
+}
+.procuctlist table tr,td,th{
+    border: 2px solid tomato;
+    padding: 7px 30px;
+    margin: 0px;
+}
